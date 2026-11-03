@@ -3,28 +3,28 @@
 class Blast < Formula
   desc "See what an AI agent running as you can reach: offline credential exposure scan"
   homepage "https://abr.kloudle.dev"
-  version "0.3.1"
+  version "0.3.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/makash/agent-blast-radius/releases/download/v0.3.1/blast-darwin-arm64"
-      sha256 "60d022b56d3929303528aa56452e682669adeb9082a803e4ad6ad1b1346eb52d"
+      url "https://github.com/makash/agent-blast-radius/releases/download/v0.3.2/blast-darwin-arm64"
+      sha256 "36026b1073f1dc7d8691ec2237826dc1daa195ba0a6dfafc9f6ea621a8d5ae60"
     end
     on_intel do
-      url "https://github.com/makash/agent-blast-radius/releases/download/v0.3.1/blast-darwin-amd64"
-      sha256 "c70657ffba34e57b508e2dfc3fab5e701dbb9c82a082a0605be445efa92dc57d"
+      url "https://github.com/makash/agent-blast-radius/releases/download/v0.3.2/blast-darwin-amd64"
+      sha256 "afa265116e41252bd774d2efd44894141a3a6a59838dd9c0b718dc9a01ab8379"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/makash/agent-blast-radius/releases/download/v0.3.1/blast-linux-arm64"
-      sha256 "d5893b51198f249bad2e17a5309fae47cd107fa7753f3a8b4cc2c9fa6cf2d07f"
+      url "https://github.com/makash/agent-blast-radius/releases/download/v0.3.2/blast-linux-arm64"
+      sha256 "7d1e3f5e0db16263ef88a7afd9a99b1eac27fd87eb2a60e1aece3ef472b4c260"
     end
     on_intel do
-      url "https://github.com/makash/agent-blast-radius/releases/download/v0.3.1/blast-linux-amd64"
-      sha256 "2907790ff016f92d82e086e719c426c1403b8d21a0db8957feaa0de796202906"
+      url "https://github.com/makash/agent-blast-radius/releases/download/v0.3.2/blast-linux-amd64"
+      sha256 "1b24f1075b8c1fcc761f2d3282f49df7d934836ea29f18d002466740c656ba5d"
     end
   end
 
